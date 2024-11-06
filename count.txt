@@ -1,0 +1,38 @@
+Row count per file:
+afritada_cleaned.csv: 123 rows
+arroz_caldo_cleaned.csv: 153 rows
+bagnet_cleaned.csv: 62 rows
+balut_cleaned.csv: 82 rows
+bibingka_cleaned.csv: 85 rows
+bicol_express_cleaned.csv: 80 rows
+bistek_tagalog_cleaned.csv: 114 rows
+bulalo_cleaned.csv: 91 rows
+champorado_cleaned.csv: 87 rows
+chicharon_cleaned.csv: 97 rows
+chicken_adobo_cleaned.csv: 123 rows
+filipino_spaghetti_cleaned.csv: 114 rows
+ginataang_gulay_cleaned.csv: 97 rows
+halo_halo_cleaned.csv: 100 rows
+kinilaw_cleaned.csv: 71 rows
+laing_cleaned.csv: 93 rows
+leche_flan_cleaned.csv: 131 rows
+lechon_cleaned.csv: 62 rows
+liempo_cleaned.csv: 77 rows
+//longganisa_cleaned.csv: 44 rows
+lumpia_cleaned.csv: 109 rows
+pancit_guisado_cleaned.csv: 127 rows
+pancit_palabok_cleaned.csv: 59 rows
+pandesal_cleaned.csv: 94 rows
+pork_adobo_cleaned.csv: 88 rows
+pork_barbecue_cleaned.csv: 101 rows
+pork_sisig_cleaned.csv: 79 rows
+sinigang_cleaned.csv: 103 rows
+taho_cleaned.csv: 70 rows
+//tapa_cleaned.csv: 35 rows
+tinola_cleaned.csv: 128 rows
+//tocino_cleaned.csv: 37 rows
+turon_cleaned.csv: 107 rows
+
+Overall total rows across all files: 3023
+Minimum number of rows in a file: 35
+Maximum number of rows in a file: 153
