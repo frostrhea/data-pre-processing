@@ -4,11 +4,9 @@ import requests
 from tqdm import tqdm
 import re
 
-# Specify the folder containing CSV files and the download destination
 csv_folder = './data pre-processing/cleaned_unrelated_pics - Copy'
 download_folder = './data pre-processing/downloaded_imgs_new'
 
-# Create the download folder if it doesn't exist
 os.makedirs(download_folder, exist_ok=True)
 
 # Function to sanitize food names for use in filenames
@@ -33,14 +31,13 @@ for csv_file in os.listdir(csv_folder):
             url = row[0]
             food_name = sanitize_filename(row[1])  # Sanitize food name
 
-            # Create a directory for the food name
             food_folder = os.path.join(download_folder, food_name)
             os.makedirs(food_folder, exist_ok=True)
 
             try:
                 # Download the image
                 response = requests.get(url, timeout=5)
-                response.raise_for_status()  # Check if the request was successful
+                response.raise_for_status()
 
                 # Generate a filename for the image (e.g., image_1.jpg)
                 image_filename = os.path.join(

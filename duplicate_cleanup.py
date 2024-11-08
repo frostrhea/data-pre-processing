@@ -1,13 +1,11 @@
 import pandas as pd
 import os
 
-# Specify the folder containing the CSV files
-# Replace with your folder path
+
 input_folder = "D:/Documents/4th year files/CSC173/filipino_food_calories/filipino-food-classifier/notebooks/data/filipino_food"
-# Folder to save cleaned files
 output_folder = ".\data pre-processing\cleaned_duplicate"
 
-# Ensure the output folder exists
+
 os.makedirs(output_folder, exist_ok=True)
 
 # Loop through all CSV files in the input folder
@@ -26,6 +24,5 @@ for filename in os.listdir(input_folder):
         cleaned_file_path = os.path.join(output_folder, filename)
         cleaned_data.to_csv(cleaned_file_path, index=False)
 
-        # Print the status for each file
         print(
             f"{filename}: {original_count} entries -> {cleaned_count} entries after cleaning.")

@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-# Define folder path containing the cleaned CSV files
+
 folder_path = './data pre-processing/cleaned_unrelated_pics'
 
-# Initialize variables to store counts and filenames
+
 row_counts = {}
 total_rows = 0
 
@@ -25,7 +25,7 @@ for csv_file in os.listdir(folder_path):
 min_rows = min(row_counts.values())
 max_rows = max(row_counts.values())
 
-# Display results
+
 print("Row count per file:")
 for file_name, count in row_counts.items():
     print(f"{file_name}: {count} rows")

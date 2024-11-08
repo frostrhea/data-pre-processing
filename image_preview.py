@@ -6,11 +6,11 @@ from PIL import Image
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 
-# Define paths
+
 csv_folder_path = "./data pre-processing/cleaned_invalid_links"
 output_folder = "./view_images"
 
-# Ensure the output folder exists
+
 os.makedirs(output_folder, exist_ok=True)
 
 # Loop through each CSV file in the folder
